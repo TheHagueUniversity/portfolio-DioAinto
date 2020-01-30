@@ -1,7 +1,31 @@
 
-
 body{
 	background-color: #232227;
+	 height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+	background-color: white;
+	
+}
+
+nav a {
+	color: grey;
+
+	text-decoration: none;
+}
+
+article {
+	width: 75%;
+    position: middle;
+}
+
+nav a:hover {
+	box-shadow: .1vh .1vh;
+	color:black;
+	font-weight: bold;
 }
 
 article p {
@@ -13,4 +37,26 @@ article p {
 .navhome  {
 	text-decoration: none;
 	color: white;
+}
+
+footer a {
+	color: grey;
+
+	text-decoration: none;
+}
+
+
+footer a:hover {
+	box-shadow: .1vh .1vh;
+	color: black;
+	font-weight: bold;
+}
+
+
+footer {
+	border-style: solid;
+	background-color: white;
+    position: bottom;
+		
+	
 }
