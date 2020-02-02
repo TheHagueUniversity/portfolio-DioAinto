@@ -46,6 +46,12 @@ article {
 	
 }
 
+article a {
+	color:green;
+}
+article a:visited {
+	color: yellow;
+}
 nav a:hover {
 	box-shadow: .1vh .1vh;	
 	
