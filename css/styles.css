@@ -55,8 +55,9 @@ h3 {
 }
 article {
 	width: 75%;
-	
-    margin: 0 auto;
+	padding-bottom: 5vh;
+	padding-top: 5vh;
+    margin: auto;
 	padding-left: 10vh;
 	background-color:#EDEDF0;
 	padding-bottom: auto;
@@ -138,8 +139,6 @@ footer {
   display: block;
   width: 100%;
   height: auto;
-  
-  
 }
 
 .overlay {
@@ -156,7 +155,7 @@ footer {
 }
 
 .container:hover .overlay {
-  opacity: 0.8;
+  opacity: 0.9;
 }
 
 .text {
@@ -169,3 +168,27 @@ footer {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
+}
+
+.expand{
+	display:block;
+	width: 33%;
+	height: auto;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
