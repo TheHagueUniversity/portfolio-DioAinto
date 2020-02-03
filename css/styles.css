@@ -4,7 +4,7 @@ body{
 	 height: 100%;
     margin: 0;
     padding: 0;
-	
+	background-color: #D9D9DB;
 	background-size: cover;
 	color: black;
     font: 1.3rem Inconsolata, monospace;
@@ -39,23 +39,28 @@ h2 {
 	display: block;
     font-size: 1.2em;	
 	font-weight: bold;
+	background-color:#EDEDF0;
 }
 
 h1 {
 	display: block;
 	font-size: 2em;
 	font-weight:bold;
+	background-color:#EDEDF0;
 }
 
 h3 {
 	display: block;
 	font-size: 1em;
+	background-color:#EDEDF0;
 }
 article {
 	width: 75%;
 	text-align:middle;
     margin: 0 auto;
-	
+	padding-left: 10vh;
+	background-color:#EDEDF0;
+	padding-bottom: 90%;
 }
 
 article ul {
@@ -69,6 +74,11 @@ article a {
 article a:visited {
 	color: yellow;
 }
+
+article a:hover{
+	background-color:black;
+}
+
 nav a:hover {
 	box-shadow: .1vh .1vh;	
 	color: white;
@@ -77,16 +87,16 @@ nav a:hover {
 }
 
 article p {
-	font-size: 2vh;
+	font-size: 1em;
 	color: black;
-	
-	
 }
 h1 {
 	color: black;	
 }
 
-
+.top {
+	background-color: #D9D9DB;
+}
 
 
 footer a {
