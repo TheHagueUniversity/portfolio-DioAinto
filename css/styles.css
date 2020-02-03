@@ -129,8 +129,6 @@ footer {
 }
 
 
-
-
 .container {
   position: relative;
   width: 50%;
@@ -138,8 +136,10 @@ footer {
 
 .image {
   display: block;
-  height: 15em;
-	width: 23em;
+  width: 100%;
+  height: auto;
+  
+  
 }
 
 .overlay {
@@ -148,8 +148,8 @@ footer {
   bottom: 0;
   left: 0;
   right: 0;
-  height: 15em;
-	width: 23em;
+  height: 100%;
+  width: 100%;
   opacity: 0;
   transition: .5s ease;
   background-color: #EDEDF0;
@@ -169,4 +169,3 @@ footer {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
-}
