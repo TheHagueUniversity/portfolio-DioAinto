@@ -4,9 +4,9 @@ body{
 	 height: 100%;
     margin: 0;
     padding: 0;
-	background-image: url('https://wallpaperaccess.com/full/312303.png');
+	
 	background-size: cover;
-	color: #1AFF80FF;
+	color: black;
     font: 1.3rem Inconsolata, monospace;
 }
 
@@ -21,22 +21,19 @@ nav {
 	top: 0;
 	left: 0;
 	overflow-x: hidden;
-	padding-top: 5vh;
+	padding-top: 10vh;
 	padding-bottom: 100%;
 	padding-right: auto;
-	border-style: solid;
-	border-top: none;
-	border-left: none;
-	border-color: #1AFF80FF;
-
+	background-color: #D9D9DB;
+	
+	
 }
 
 nav a {
-	color: #1AFF80FF;
+	color: black;
 	padding-right: 1vh;
 	text-decoration: none;
 	text-shadow: .1vh .1vh ;
-	
 }
 h2 {
 	display: block;
@@ -48,6 +45,11 @@ h1 {
 	display: block;
 	font-size: 2em;
 	font-weight:bold;
+}
+
+h3 {
+	display: block;
+	font-size: 1em;
 }
 article {
 	width: 75%;
@@ -69,26 +71,26 @@ article a:visited {
 }
 nav a:hover {
 	box-shadow: .1vh .1vh;	
-	
-	color:#1AFF80FF;
+	color: white;
+	background-color:black;
 	text-shadow: 5vh 5vh 5vh 5vh;
 }
 
 article p {
 	font-size: 2vh;
-	color: #1AFF80FF;
+	color: black;
 	
 	
 }
 h1 {
-	color: #1AFF80FF;	
+	color: black;	
 }
 
 
 
 
 footer a {
-	color: #1AFF80FF;
+	color: black;
 	padding-right:1vh;
 	text-decoration: none;
 	background-color:none;
@@ -98,13 +100,15 @@ footer a {
 
 footer a:hover {
 	box-shadow: .1vh .1vh;
-	color: #1AFF80FF;
+	color: white;
+	background-color:black;
 	text-shadow: 5vh 5vh 5vh 5vh;
 	
 }	
 
 
 footer {
+	background-color: #D9D9DB;
 	/*border-style: solid;
 	border-color: #1AFF80FF;	
 	border-bottom: none;
