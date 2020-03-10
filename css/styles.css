@@ -6,7 +6,8 @@ body{
     padding: 0;
 	background-image: url('https://wallpaperaccess.com/full/312303.png');
 	background-size: cover;
-	
+	color: #1AFF80FF;
+    font: 1.3rem Inconsolata, monospace;
 }
 
 @font-face {
@@ -27,12 +28,14 @@ nav {
 	border-top: none;
 	border-left: none;
 	border-color: #1AFF80FF;
+	
 }
 
 nav a {
 	color: #1AFF80FF;
-	padding: 1vh;
+	
 	text-decoration: none;
+	text-shadow: .1vh .1vh ;
 	
 }
 
@@ -44,42 +47,46 @@ article {
 }
 
 nav a:hover {
-	box-shadow: 1vh 1vh 5vh .1vh;
-	border-style: solid;
-	color:#1AFF80FF;
+	box-shadow: .1vh .1vh;	
 	
+	color:#1AFF80FF;
+	text-shadow: 5vh 5vh 5vh 5vh;
 }
 
 article p {
-	font-size: 12;
+	font-size: 2vh;
 	color: #1AFF80FF;
 	
 	
 }
-article h1 {
+h1 {
 	color: #1AFF80FF;
-	font-family: pipBoy;
+	
 }
 
 
 
 
 footer a {
-	color: grey;
+	color: #1AFF80FF;
 	padding-right:1vh;
 	text-decoration: none;
+	background-color:none;
+	text-shadow: .1vh .1vh ;
 }
 
 
 footer a:hover {
 	box-shadow: .1vh .1vh;
-	color: black;
+	color: #1AFF80FF;
+	text-shadow: 5vh 5vh 5vh 5vh;
+	
 }	
 
 
 footer {
 	border-style: solid;
-	border-color: #1AFF80FF;
+	border-color: #1AFF80FF;	
 	border-bottom: none;
 	border-right:none;
 	position: fixed;
@@ -89,4 +96,33 @@ footer {
 	overflow-x: hidden;
 	padding-bottom: 5vh;
 	padding: 1vh 5vh;
+	padding-left: 160.8vh;
+}
+
+
+
+
+
+ h1 {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color:  #1AFF80FF; }
 }
